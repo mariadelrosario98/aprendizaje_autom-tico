@@ -3,24 +3,26 @@
 
 This repository contains the solution for the [Hugging Face ML Competition 0120251](https://huggingface.co/spaces/MLEAFIT/MLCompetition0120251). The challenge focuses on developing a machine learning pipeline to predict loan approvals based on applicant information.
 
-## 🗄️ Dataset
+## 📂 Dataset
 
-This dataset contains various attributes related to loan applicants, including personal information, financial status, and credit history. The goal is to use these features to predict whether a loan application will be approved, represented by the Loan_Status column.
+This dataset contains various attributes related to loan applicants, including personal information, financial status, and credit history. The goal is to use these features to predict whether a loan application will be approved, represented by the **`Loan_Status`** column.
 
-Variables
-Loan_ID: Unique identifier for each loan application.
-Gender: Applicant's gender (Male/Female).
-Married: Whether the applicant is married (Yes/No).
-Dependents: Number of dependents the applicant has.
-Education: Applicant's education level (Graduate/Not Graduate).
-Self_Employed: Whether the applicant is self-employed (Yes/No).
-ApplicantIncome: Applicant's monthly income.
-CoapplicantIncome: Co-applicant's monthly income (if any).
-LoanAmount: The loan amount applied for.
-Loan_Amount_Term: Duration of the loan in months.
-Credit_History: Whether the applicant has a good credit history (1 for good, 0 for bad).
-Property_Area: The area where the property is located (Urban/Semiurban/Rural).
-Loan_Status: Loan approval status (1 for Approved, 0 for Not Approved). (Target Variable)
+
+### 🏷 Variables
+
+- **`Loan_ID`**: Unique identifier for each loan application.
+- **`Gender`**: Applicant's gender (**Male**/**Female**).
+- **`Married`**: Whether the applicant is married (**Yes**/**No**).
+- **`Dependents`**: Number of dependents the applicant has.
+- **`Education`**: Applicant's education level (**Graduate**/**Not Graduate**).
+- **`Self_Employed`**: Whether the applicant is self-employed (**Yes**/**No**).
+- **`ApplicantIncome`**: Applicant's monthly income.
+- **`CoapplicantIncome`**: Co-applicant's monthly income (if any).
+- **`LoanAmount`**: The loan amount applied for.
+- **`Loan_Amount_Term`**: Duration of the loan in months.
+- **`Credit_History`**: Whether the applicant has a good credit history (**1** for good, **0** for bad).
+- **`Property_Area`**: The area where the property is located (**Urban**/**Semiurban**/**Rural**).
+- **`Loan_Status`**: **(Target Variable)** Loan approval status (**1** for Approved, **0** for Not Approved).
 
 
 ## 🏗 Project Structure
