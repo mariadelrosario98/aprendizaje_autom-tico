@@ -28,10 +28,15 @@ This dataset contains various attributes related to loan applicants, including p
 ## 🏗 Project Structure
 
 ├── a_data_prep.ipynb # Data Preparation
+
 ├── b_eda.ipynb # Exploratory Data Analysis
+
 ├── c_training.ipynb # Model Training
+
 ├── d_test.ipynb # Model Testing & Predictions
+
 ├── loanpred_test.csv # Test Data 
+
 └── README.md # This file
 
 ## ⚙️ Technical Approach
